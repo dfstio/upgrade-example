@@ -117,7 +117,7 @@ tx status: included
 
 The MyContract is deployed and the contract.json file is created in the data folder.
 
-## Step3: Send contract V1 transactions
+## Step 3: Send contract V1 transactions
 
 ```sh
 npm run tx:v1
@@ -239,7 +239,7 @@ tx sent {
 Upgraded MyContract: 34.826s
 ```
 
-## Step8: Send contract V2 transactions
+## Step 8: Send contract V2 transactions
 
 ```sh
 npm run tx:v2
