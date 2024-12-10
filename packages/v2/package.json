@@ -1,0 +1,37 @@
+{
+  "name": "contract-v2",
+  "version": "0.1.0",
+  "author": "DFST",
+  "description": "Upgradable interface for Mina zkApps - Contract V2",
+  "type": "module",
+  "keywords": [
+    "typescript",
+    "mina-protocol",
+    "Upgradable",
+    "zkApps"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "execute": "DOTENV_CONFIG_PATH=../../.env node -r dotenv/config --loader ts-node/esm --enable-source-maps",
+    "build": "rm -rf dist/lib && tsc",
+    "tx": "npm run execute src/tx.ts",
+    "compile": "npm run execute src/compile.ts",
+    "deploy:upgrade": "npm run execute src/deploy-upgrade.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@minatokens/storage": "^0.5.0",
+    "@minatokens/upgradable": "^0.5.0",
+    "mina-signer": "^3.0.7",
+    "o1js": "^2.1.0",
+    "tslib": "^2.8.1"
+  }
+}

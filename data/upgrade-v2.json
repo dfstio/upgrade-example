@@ -1,0 +1,28 @@
+{
+  "o1js": "2.1.0",
+  "upgradeAuthority": {
+    "publicKey": "B62qqEQYk9qez97UCNriSQuRnTsFVai8EofjQ5vLxEqdtmi9RMB7znY",
+    "privateKey": "EKDuQjwXV5fjseXwfsFQhx3iYamfrssqchQBPpf8AiEShNjnFNXs"
+  },
+  "validators": [
+    {
+      "publicKey": "B62qk61rodqgbU1r728UPWeyVHeScsEf8t5wKma89gpwaMGTXbaDwJK",
+      "privateKey": "EKES3eZC9eFCdcxRNrm7xCjrdfZZmLCRdbTBMAUPyR14vmj7gzaN"
+    },
+    {
+      "publicKey": "B62qmEzeDMsZsfSV5roY79pSfY7QKLf9kGGm2mufaAm2N66ai29gd1N",
+      "privateKey": "EKEJPLAmNLS4UHw4E17MCZbDuXiwGLqffsFpvwudqEssN4HyPZg2"
+    },
+    {
+      "publicKey": "B62qokoLMTcHtW1P2B4bUZUKxvkueEBGs1V2vMPB5zXPp9j4RPcTio3",
+      "privateKey": "EKERqyVP6kDnH9qsFRrRHSQo7e9jFv9dZpLC8yBStwSsur4W6Smh"
+    }
+  ],
+  "tx": {
+    "hash": "5JuoK1JbwZ9N1sd2u7GrE2DtXtmQEFm6mq1MHbX3vJ5dGfNjgAJZ",
+    "status": "pending",
+    "errors": []
+  },
+  "ipfs": "bafkreigljbiifcrfihabj2arokc3ua7zwjm3meomslswvmlre2cifnogui",
+  "nonce": 7
+}

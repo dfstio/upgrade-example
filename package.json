@@ -1,0 +1,29 @@
+{
+  "name": "upgrade-example",
+  "version": "0.1.0",
+  "author": "DFST",
+  "private": true,
+  "description": "Example of using Upgradable interface to upgrade SmartContract",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "zkApps",
+    "Mina",
+    "Upgradeable"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "npm run build -w contract-v1 && npm run build -w contract-v2",
+    "clean": "rm -rf node_modules && rm -rf packages/*/node_modules && rm -rf packages/*/dist && rm package-lock.json",
+    "deploy:upgrade": "npm run deploy:upgrade -w contract-v1",
+    "deploy:contract": "npm run deploy:contract -w contract-v1",
+    "tx:v1": "npm run tx -w contract-v1",
+    "compile:v2": "npm run compile -w contract-v2",
+    "deploy:upgrade-v2": "npm run deploy:upgrade -w contract-v2",
+    "set:db": "npm run set:db -w contract-v1",
+    "upgrade": "npm run upgrade -w contract-v1",
+    "tx:v2": "npm run tx -w contract-v2"
+  }
+}
