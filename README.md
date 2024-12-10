@@ -3,6 +3,8 @@
 This end-to-end example demonstrates how to deploy and upgrade an upgradeable contract on Mina.
 The contract is deployed using o1js v1.9.1 and upgraded to use o1js v2.1.0 by upgrading its verification key using the UpgradeAuthority contract and private voting of the validators on the new UpgradeAuthority database that contains the new verification key.
 
+More details on the reason why the verification keys are different between v1 and v2 can be found in the [Introducing o1js v2](https://www.o1labs.org/blog/introducing-o1js-v2) blog post.
+
 ## Workflow
 
 ```mermaid
