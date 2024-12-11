@@ -22,16 +22,16 @@
     "deploy:upgrade": "npm run execute src/deploy-upgrade.ts"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
+    "@types/node": "^22.10.2",
     "dotenv": "^16.4.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@minatokens/storage": "^0.5.0",
-    "@minatokens/upgradable": "^0.5.0",
+    "@minatokens/storage": "^0.6.0",
+    "@minatokens/upgradable": "^0.6.0",
     "mina-signer": "^3.0.7",
-    "o1js": "^2.1.0",
+    "o1js": "^2.2.0",
     "tslib": "^2.8.1"
   }
 }
